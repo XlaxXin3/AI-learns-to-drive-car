@@ -21,7 +21,7 @@ def run_car(genomes, config):
     pygame.init()
     screen = pygame.display.set_mode((screen_width, screen_height))
     clock = pygame.time.Clock()
-    map = pygame.image.load('Assets\\map.png')
+    map = pygame.image.load("Assets\\map.png")
 
     global generation
     generation += 1
